@@ -1,3 +1,4 @@
+setTimeout(() => {
 let element;
     let interval;
     
@@ -17,4 +18,5 @@ let element;
         clearInterval(interval);
         OWOP.elements.topBar.removeChild(element);
     }
+},5000);
 install();
